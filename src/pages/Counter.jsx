@@ -52,8 +52,8 @@ export class Counter extends Component {
                 })}
 
                 <div className="flex justify-center items-center gap-4 w-72 h-24 bg-[#080000] rounded-xl z-0 relative">
-                    <img src={LogoCombo3} alt="LogoCombo3" className="w-12 h-8" />
-                    <img src={LogoCombo4} alt="LogoCombo4" className="w-16 h-4" />
+                    <img src={LogoCombo3} alt="LogoCombo3" className="lazyload w-12 h-8" />
+                    <img src={LogoCombo4} alt="LogoCombo4" className="lazyload w-16 h-4" />
                 </div>
 
                 <h1 className="p-2 poppins-regular font-semibold text-2xl sm:text-4xl bg-gradient-to-r from-white to-white/20 bg-clip-text text-transparent mb-6 mt-4 text-center">
@@ -66,10 +66,17 @@ export class Counter extends Component {
                     Don't Miss Out Your chance
                 </h1>
 
-                <button className="group cursor-pointer relative shadow-sm shadow-neutral-500 rounded-full py-3 px-8 md:py-3 md:px10 bg-[#DA190B] text-white text-md md:text-md transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/30 active:bg-red-900/30">
-                    <span className="relative z-10">Register Now</span>
-                    <div className=" absolute inset-0 rounded-full bg-[#DA190B] opacity-0 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
-                </button>
+                <a
+                    href="https://tripetto.app/run/W2DH3X7OBR"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="group cursor-pointer relative shadow-sm shadow-neutral-500 mb-8 rounded-full py-3 px-8 md:py-3 md:px-10 bg-[#DA190B] text-white text-md md:text-md transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/30 active:bg-red-900/30">
+                        <span className="relative z-10">Register Now</span>
+                        <div className="absolute inset-0 rounded-full bg-[#DA190B] opacity-0 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+                    </button>
+                </a>
+
 
                 <style>
                     {`

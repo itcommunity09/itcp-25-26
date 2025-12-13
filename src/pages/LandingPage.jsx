@@ -59,7 +59,7 @@ export class LandingPage extends Component {
             <div>
                 <Header sectionRefs={this.sectionRefs} />
 
-                <div id="home"  className="containerHero relative w-full flex items-center justify-center" style={{ height: 'calc(100vh - 100px)' }}>
+                <div id="home"  className="containerHero relative w-full flex items-center justify-center" style={{ height: 'calc(100vh - 86px)' }}>
                     <HeroSection enableAnimations={currentSection === 'home'} />
                 </div>
 

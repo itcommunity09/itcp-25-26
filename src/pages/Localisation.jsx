@@ -44,7 +44,14 @@ export class Localisation extends Component {
                     The N 1, lot alioua fodil, Chéraga 16014, Algiers
                 </p>
 
-                <Map/>
+                <a
+                    href="https://maps.app.goo.gl/3Z6EwKBr1oETtz4g6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer"
+                >
+                    <Map />
+                </a>
             </div>
         )
     }

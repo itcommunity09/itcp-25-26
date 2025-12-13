@@ -14,10 +14,10 @@ export class Agenda extends Component {
                 ([entry]) => {
                     if (entry.isIntersecting) {
                         this.setState({ animate: true });
-                        observer.disconnect(); // trigger only once
+                        observer.disconnect();
                     }
                 },
-                { root: null, threshold: 0.2 } // 20% visible
+                { root: null, threshold: 0.2 }
             );
             observer.observe(this.sectionRef.current);
         }
@@ -59,11 +59,19 @@ export class Agenda extends Component {
                 </p>
 
                 <div
-                    className="mt-8 w-full opacity-0"
+                    className=" flex mt-8 w-full opacity-0"
                     style={{
                         animation: animate ? 'fadeSlideUp 0.8s ease-out 0.6s forwards' : 'none'
                     }}
                 >
+                    <div className={'justify-center text-center align-middle  flex flex-col'}>
+
+
+
+                    </div>
+
+
+
                     <Timeline />
                 </div>
 

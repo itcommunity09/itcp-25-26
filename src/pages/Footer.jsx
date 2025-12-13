@@ -30,7 +30,6 @@ export default function Footer() {
 
     return (
         <footer className="bg-[#010101] text-gray-400 px-4 sm:px-6 lg:px-36 pt-12 sm:pt-16 pb-6 poppins-regular">
-            {/* MAIN GRID - Mobile: 2 columns, Desktop: 3 columns */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 mb-10 sm:mb-12 text-center md:text-left">
 
                 <div className="flex flex-col items-center md:items-start space-y-3 col-span-1">
@@ -38,10 +37,11 @@ export default function Footer() {
                     <p className="text-sm font-semibold tracking-wide">
                         SHARING IS CARING
                     </p>
-                    <div className="flex items-center gap-2 text-sm">
-                        <HiMiniMapPin />
-                        <span className="text-xs sm:text-sm">University of Blida 1</span>
-                    </div>
+
+                        <div className="flex items-center gap-2 text-sm cursor-pointer">
+                            <HiMiniMapPin />
+                            <span className="text-xs sm:text-sm">University of Blida 1</span>
+                        </div>
                 </div>
 
                 <div className="space-y-5 col-span-1">
@@ -62,7 +62,7 @@ export default function Footer() {
 
 
                     <h3 className="text-white ml-6 md:ml-0 font-semibold mt-8 text-left text-sm sm:text-base">Contact us</h3>
-                    <div className="flex items-center gap-2 text-xs sm:text-sm justify-center md:justify-start">
+                    <div className="flex items-center gap-2 text-xs sm:text-xs justify-center md:justify-start">
                         <MdEmail />
                         <a
                             href="mailto:contact.itc.blida@gmail.com"
@@ -70,8 +70,7 @@ export default function Footer() {
                             rel="noopener noreferrer"
                             className="hover:underline"
                         >
-                            itc@gmail.com
-                        </a>
+                            contact.itc.blida@gmail.com                        </a>
                     </div>
                 </div>
 

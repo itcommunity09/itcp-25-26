@@ -42,7 +42,7 @@ export class Header extends Component {
         ];
 
         return (
-            <div className="poppins-regular text-[#B9B9B9] flex justify-between items-center py-6 px-8 md:py-6 md:px-8 lg:px-36">
+            <div className="poppins-regular text-[#B9B9B9] flex justify-between items-center py-5 px-8 md:py-4 md:px-8 lg:px-26">
                 <div>
                     <button
                         onClick={() => {
@@ -55,15 +55,17 @@ export class Header extends Component {
                         }}
                     >
                         <img
-                            className="relative top-2 w-10 h-10 md:w-12 md:h-12"
+                            className=" relative top-2 w-10 h-10 md:w-12 md:h-12"
                             src={Logo}
                             alt="logo"
+                            loading="lazy"
+
                         />
                     </button>
                 </div>
 
                 <nav className="hidden md:block">
-                    <ul className="flex gap-8 lg:gap-14 text-[18px]">
+                    <ul className="flex gap-8 lg:gap-12 text-[16px]">
                         {navLinks.map(link => (
                             <li key={link.key}>
                                 <button
