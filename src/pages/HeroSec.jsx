@@ -110,9 +110,9 @@ export class HeroSec extends Component {
                     })}
                 </div>
 
-                <div className="poppins-regular relative z-20 mb-10  md:mb-0 max-w-6xl w-full flex flex-col items-center justify-center gap-4 sm:gap-6 lg:gap-8 text-center px-2">
+                <div className="poppins-regular relative z-20 mb-26  md:mb-0 max-w-6xl w-full flex flex-col items-center justify-center gap-4 sm:gap-6 lg:gap-8 text-center px-2">
                     <div className="opacity-0 animate-fadeInUp">
-                        <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl text-white leading-snug sm:leading-tight">
+                        <h1 className="text-3xl  sm:text-3xl md:text-5xl lg:text-6xl text-white leading-snug sm:leading-tight">
                             <span className="bg-gradient-to-r from-white to-white/40 bg-clip-text text-transparent">T</span>
                             <span className="bg-gradient-to-r from-white to-white/55 bg-clip-text text-transparent">he </span>
                             <span className="bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">C</span>
@@ -147,7 +147,7 @@ export class HeroSec extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className="group cursor-pointer relative shadow-sm shadow-neutral-500  mt-8 rounded-full py-3 px-8 md:py-4 md:px-10 bg-[#DA190B] text-white text-md md:text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/30 active:bg-red-900/30">
+                            <button className="group cursor-pointer relative shadow-sm shadow-neutral-500  mt-8 rounded-full py-4 px-8 md:py-4 md:px-10 bg-[#DA190B] text-white text-md md:text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/30 active:bg-red-900/30">
                                 <span className="relative z-10">Register Now</span>
                                 <div className="absolute inset-0 rounded-full bg-[#DA190B] opacity-0 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
                             </button>

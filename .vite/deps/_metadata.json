@@ -1,0 +1,76 @@
+{
+  "hash": "d1289fa5",
+  "configHash": "36496baa",
+  "lockfileHash": "79930e47",
+  "browserHash": "254763d0",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "f28af1a2",
+      "needsInterop": true
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.mjs",
+      "file": "react-icons_ai.js",
+      "fileHash": "135bd4ec",
+      "needsInterop": false
+    },
+    "react-icons/fa6": {
+      "src": "../../node_modules/react-icons/fa6/index.mjs",
+      "file": "react-icons_fa6.js",
+      "fileHash": "55db28b4",
+      "needsInterop": false
+    },
+    "react-icons/go": {
+      "src": "../../node_modules/react-icons/go/index.mjs",
+      "file": "react-icons_go.js",
+      "fileHash": "8186c2d6",
+      "needsInterop": false
+    },
+    "react-icons/hi2": {
+      "src": "../../node_modules/react-icons/hi2/index.mjs",
+      "file": "react-icons_hi2.js",
+      "fileHash": "2ebbf82b",
+      "needsInterop": false
+    },
+    "react-icons/md": {
+      "src": "../../node_modules/react-icons/md/index.mjs",
+      "file": "react-icons_md.js",
+      "fileHash": "eb58d9e4",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "f6fe8cfd",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "485475f0",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "f111d5eb",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "iconBase-BW6LOr0b": {
+      "file": "iconBase-BW6LOr0b.js",
+      "isDynamicEntry": false
+    },
+    "react-bdSt_kio": {
+      "file": "react-bdSt_kio.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-ByUX5w_4": {
+      "file": "react-dom-ByUX5w_4.js",
+      "isDynamicEntry": false
+    }
+  }
+}
