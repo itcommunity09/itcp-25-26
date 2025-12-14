@@ -14,10 +14,10 @@ export class Sponsors extends Component {
                 ([entry]) => {
                     if (entry.isIntersecting) {
                         this.setState({ animate: true });
-                        observer.disconnect(); // only trigger once
+                        observer.disconnect();
                     }
                 },
-                { root: null, threshold: 0.2 } // 20% visible
+                { root: null, threshold: 0.2 }
             );
             observer.observe(this.sectionRef.current);
         }
@@ -100,29 +100,8 @@ export class Sponsors extends Component {
                     We are proud to collaborate with Code & Sens, a leading private school offering accessible, flexible, and career-oriented training. Their mission is to make tech education available to everyone. Thanks to their adaptable, hands-on learning approach, Code & Sens is the perfect environment to host a competition that empowers beginners to grow, create, and challenge themselves.
                 </p>
 
-                <h2
-                    className="mt-12 text-2xl sm:text-3xl md:text-[38px] mb-6 bg-gradient-to-r from-white to-white/50 bg-clip-text text-transparent opacity-0"
-                    style={{
-                        animation: animate ? 'fadeSlideIn 0.8s ease-out 1s forwards' : 'none'
-                    }}
-                >
-                    Our Sponsors
-                </h2>
 
-                <div
-                    className="flex flex-wrap gap-6 justify-evenly w-full mt-8 opacity-0"
-                    style={{
-                        animation: animate ? 'fadeSlideIn 0.8s ease-out 1.2s forwards' : 'none'
-                    }}
-                >
-                    <SponsorCard />
-                    <SponsorCard />
-                    <SponsorCard />
-                    <SponsorCard />
-                    <SponsorCard />
-                </div>
 
-                {/* Animations */}
                 <style jsx>{`
                     @keyframes fadeSlideIn {
                         0% {
